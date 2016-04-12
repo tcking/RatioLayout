@@ -1,5 +1,5 @@
 # RatioLayout
-Layout's width/height with specified ratio,for example:
+LinearLayout or RelativeLayout's width/height with specified ratio,for example:
 
 ``` xml
 <com.github.tcking.view.RatioRelativeLayout
@@ -10,3 +10,6 @@ Layout's width/height with specified ratio,for example:
         ...
  </com.github.tcking.view.RatioRelativeLayout>
 ```
+the ratio default base on width,we also can specified ratio base on height via:`app:ratioBase="height"`
+
+need more RatioLayout? if u using android studio that is simple,just open `RatioLinearLayout` type `F5` change target class name,and then change target class super class what you want
